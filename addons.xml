@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.blackboxwizard" name="TheBlackBox Wizard" version="2.5" provider-name="TheBlackBox.co.uk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">TheBlackBox Wizard</summary>
+    <description lang="en">TheBlackBox Wizard</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.theblackbox" name="TheBlackBox Repository" version="1.0.0" provider-name="TheBlackBox">
+	<extension point="xbmc.addon.repository" name="TheBlackBox Repository">
+		<info compressed="false">https://github.com/TheBlackBoxOSTV/theblackbox-xbmc-addons/raw/master/_repo/addons.xml</info>
+		<checksum>https://github.com/TheBlackBoxOSTV/theblackbox-xbmc-addons/raw/master/_repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/TheBlackBoxOSTV/theblackbox-xbmc-addons/raw/master/_repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install TheBlackBox's Addons</summary>
+		<description>Download and install wizards and addons by TheBlackBox</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>

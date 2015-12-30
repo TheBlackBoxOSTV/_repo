@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.blackboxwizard" name="TheBlackBox Wizard" version="2.6" provider-name="TheBlackBox.co.uk">
+<addon id="plugin.video.blackboxwizard" name="TheBlackBox Wizard" version="2.7" provider-name="TheBlackBox.co.uk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
